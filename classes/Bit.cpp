@@ -72,3 +72,9 @@ Player* Bit::getOwner()
 	return _owner;
 }
 
+//added moveTo function
+void Bit::moveTo(const ImVec2 &point)
+{
+	setPosition(point);
+}
+
