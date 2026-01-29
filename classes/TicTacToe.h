@@ -31,6 +31,7 @@ public:
 	void        updateAI() override;
     bool        gameHasAI() override { return true; }
     BitHolder &getHolderAt(const int x, const int y) override { return _grid[y][x]; }
+    int         negamax(std::string state, int depth, int color);
 private:
     Bit *       PieceForPlayer(const int playerNumber);
     Player*     ownerAt(int index ) const;

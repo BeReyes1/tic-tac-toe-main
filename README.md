@@ -3,3 +3,6 @@ For this project, I mostly went function by function using the comments as a gui
 I had to edit one class being the Bit class. For a couple functions it suggested to move a bit to a holder's position. The moveTo() function was unused so, I filled it out to be able to use it.
 
 I worked on Windows.
+
+Part 2: AI
+For the AI implementation, I followed along in class to implement the negamax function. However, it didn't work quite the right way so I made a few changes. For instance, my eval is an int and depending on the player it sends a -10 or 10. 
